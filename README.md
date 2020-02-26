@@ -4,9 +4,16 @@ Player Prefs Manager provides an easy way to see what Player & Editor Prefs your
 
 It also includes encryption support to protect your prefs from casual hacking and has additional support for more data types.
 
+## Installing
+
+- Download the source code or check the [releases on this repository](https://github.com/WSWhitehouse/Unity-Player-Prefs-Manager/releases) for a specific Unity Package download or download the [Latest Unity Package](https://github.com/WSWhitehouse/Unity-Player-Prefs-Manager/releases/latest)
+  - If you downloaded the Unity Package you will need to import it. `Assets -> Import Package -> Custom Package` and select the Unity Package you just downloaded
+- To open the Players Prefs Manager go to Unity Tools -> Player Prefs Manager
+
 This repository was originally created by [Sabresaurus](https://github.com/sabresaurus), the original repository can be found [here](https://github.com/sabresaurus/PlayerPrefsEditor). This version contains many bug fixes, updates for newer versions of Unity and some minor code enhancements & improvements.
 
-Editor features include:
+## Editor features include:
+
 - List all Player/Editor Prefs
 - Search for Player/Editor Prefs to refine results
 - Change Player/Editor Prefs values at run-time
@@ -16,7 +23,8 @@ Editor features include:
 - Import Player Prefs from another project
 - Supports working with the encryption features added in the utilities
 
-Utilities features include:
+## Utilities features include:
+
 - Set and get the built in Player/Editor Pref types using an encryption layer - plain text values are transparently converted to encryption so that the Player/Editor Prefs are protected in the device data stores
 - Set and get Enum values
 - Set and get DateTime values
